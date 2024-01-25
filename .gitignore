@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.map
+# We are using SCSS so we can safely ignore .css files as well
+*.css
