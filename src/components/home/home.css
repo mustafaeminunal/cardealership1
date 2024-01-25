@@ -1,0 +1,44 @@
+:root {
+  --primaryColor: #001f3f;
+  --secondaryColor: #b0b0b0;
+  --hoverColor: #ff4136;
+  --whiteColor: #ffffff;
+  --blackColor: #111111;
+}
+
+.home {
+  padding-top: 8rem;
+  background-color: var(--whiteColor);
+}
+
+.secContainer {
+  padding: 0 1.5rem;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+.secContainer .homeText .homeSpan {
+  color: var(--textColor);
+  font-weight: 400;
+  font-size: 15px;
+}
+.secContainer .homeText .homeTitle {
+  font-size: 30px;
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.secContainer .homeText .btnContainer {
+  gap: 1.5rem;
+  justify-content: center;
+}
+.secContainer .homeText .btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  justify-content: center;
+  font-size: 12px;
+}
+.secContainer .homeImage {
+  margin: auto;
+}/*# sourceMappingURL=home.css.map */

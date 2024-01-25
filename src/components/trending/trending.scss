@@ -1,0 +1,95 @@
+:root {
+  --primaryColor: #001f3f;
+  --secondaryColor: #b0b0b0;
+  --hoverColor: #ff4136;
+  --whiteColor: #ffffff;
+  --blackColor: #111111;
+}
+
+.trending {
+  .secContainer {
+    padding-left: 0;
+    padding-right: 0;
+    .secHeading {
+      justify-content: space-between;
+      padding: 1rem 0;
+      background-color: var(--primaryColor);
+      .secTitle {
+        color: var(--whiteColor);
+        margin-left: 1.5rem;
+      }
+    }
+    .navBtns {
+      gap: 0.5rem;
+      margin-right: 15px;
+
+      .icon {
+        padding: 3px 5px;
+        background: var(--secondaryColor);
+        border-radius: 3px;
+        font-size: 30px;
+        cursor: pointer;
+
+        &:hover {
+          background: var(--hoverColor);
+          color: var(--whiteColor);
+        }
+      }
+    }
+    .carContainer {
+      gap: 2rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+
+      .singleCar {
+        transition: 0.3s ease-in-out;
+        text-align: left;
+
+        .imgDiv {
+          overflow: hidden;
+          background-image: url(../../assets/m_background.png);
+          background-size: cover;
+        }
+        .carTitle {
+          color: var(--blackColor);
+          font-size: 15px;
+          padding: 10 10 0 10px;
+          text-align: left;
+        }
+
+        .miles {
+          color: var(--blackColor);
+          opacity: 0.7;
+          font-size: 14px;
+        }
+
+        .price_seller {
+          gap: 1rem;
+
+          span {
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border-radius: 3px;
+            font-weight: 550;
+          }
+          .price {
+            background: var(--secondaryColor);
+            color: var(--primaryColor);
+          }
+
+          .seller {
+            background: var(--primaryColor);
+            color: var(--whiteColor);
+          }
+        }
+        &:hover {
+          transform: translateY(-10px);
+
+          .imgDiv {
+            border-bottom: 6px solid var(--primaryColor);
+          }
+        }
+      }
+    }
+  }
+}

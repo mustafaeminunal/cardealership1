@@ -1,0 +1,35 @@
+:root {
+  --primaryColor: #001f3f;
+  --secondaryColor: #b0b0b0;
+  --hoverColor: #ff4136;
+  --whiteColor: #ffffff;
+  --blackColor: #111111;
+}
+
+.dealershipDiv {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+
+  .dealershipArticle {
+    flex-direction: column;
+    padding: 5px;
+    gap: 15px;
+
+    img {
+      width: 150px; // Set the desired fixed width
+      height: 150px; // Set the desired fixed height
+      object-fit: cover; // Stretch the image to fit the fixed size
+    }
+
+    .dealershipTitle {
+      font-weight: 500;
+    }
+    .dealershipContact a {
+      text-decoration: none;
+      color: var(--whiteColor);
+      background-color: var(--primaryColor);
+      padding: 8px;
+      width: 100%;
+    }
+  }
+}
