@@ -49,3 +49,15 @@
     }
   }
 }
+
+// Optimising for desktop
+
+@media screen and (min-width: 996px) {
+  .reviewSection {
+    width: 960px;
+
+    .review {
+      margin-left: 20px;
+    }
+  }
+}

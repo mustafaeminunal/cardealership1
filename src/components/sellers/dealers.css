@@ -30,4 +30,70 @@
   background-color: var(--primaryColor);
   padding: 8px;
   width: 100%;
+}
+
+@media screen and (min-width: 770px) {
+  .dealers .secTitle {
+    font-size: 30px;
+  }
+  .dealershipDiv .dealershipArticle {
+    padding: 25px;
+  }
+  .dealershipDiv .dealershipArticle img {
+    width: 200px;
+    height: 150px;
+  }
+  .dealershipDiv .dealershipArticle .dealershipTitle {
+    font-size: 20px;
+  }
+  .dealershipDiv .dealershipArticle .dealershipContact .contactNumber {
+    font-size: 18px;
+  }
+  .dealershipDiv .dealershipArticle .dealershipContact .callIcon {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 996px) {
+  .dealershipDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    justify-self: center;
+  }
+  .dealershipDiv .dealershipArticle {
+    width: 50%;
+  }
+  .dealershipDiv .dealershipArticle img {
+    width: 170px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .dealers {
+    padding: 0;
+  }
+  .dealers .secTitle {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .dealershipDiv {
+    padding-top: 50px;
+  }
+  .dealershipDiv .dealershipArticle {
+    padding-top: 25px;
+  }
+  .dealershipDiv .dealershipArticle img {
+    width: 300px;
+    height: 250px;
+  }
+  .dealershipDiv .dealershipArticle .dealershipTitle {
+    font-size: 20px;
+  }
+  .dealershipDiv .dealershipArticle .dealershipContact .contactNumber {
+    font-size: 18px;
+  }
+  .dealershipDiv .dealershipArticle .dealershipContact .callIcon {
+    font-size: 28px;
+  }
 }/*# sourceMappingURL=dealers.css.map */

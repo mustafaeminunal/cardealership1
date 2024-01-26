@@ -121,3 +121,101 @@
 .blendIn {
   box-shadow: none;
 }
+
+// Making the website responsive using media queries
+@media screen and (min-width: 520px) {
+  .header {
+    .logoDiv {
+      img {
+        width: 30px;
+      }
+    }
+    .signIn {
+      .text {
+        padding: 6px;
+        font-size: 16px;
+      }
+      .openIcon {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .header {
+    .navbar {
+      .closeIcon {
+        display: none;
+      }
+      .menu {
+        display: flex;
+        flex-direction: row;
+
+        .listItem {
+          padding: 0.3rem 1rem;
+          border-radius: 3px;
+
+          a {
+            color: var(--primaryColor);
+            font-size: 15px;
+          }
+          &:hover {
+            background: var(--primaryColor);
+            color: var(--whiteColor);
+            transition: 0.3s ease;
+          }
+
+          &:hover a {
+            color: var(--whiteColor);
+          }
+        }
+      }
+    }
+    .signIn {
+      .text {
+        padding: 6px 10px;
+      }
+      .openIcon {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1064px) {
+  .header {
+    padding: 2rem 7rem;
+    .navbar {
+      .menu {
+        .listItem {
+          a {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .signIn {
+      .text {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    .navbar {
+      .menu {
+        .listItem {
+          margin: 0 0.8rem;
+        }
+      }
+    }
+    .signIn {
+      .text {
+        font-size: 18px;
+      }
+    }
+  }
+}

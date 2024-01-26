@@ -45,4 +45,13 @@
   font-size: 14px;
   font-weight: 600;
   border-radius: 0px 0px 10px 10px;
+}
+
+@media screen and (min-width: 996px) {
+  .reviewSection {
+    width: 960px;
+  }
+  .reviewSection .review {
+    margin-left: 20px;
+  }
 }/*# sourceMappingURL=reviews.css.map */

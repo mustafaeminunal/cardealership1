@@ -33,3 +33,81 @@
     }
   }
 }
+
+@media screen and (min-width: 770px) {
+  .dealers {
+    .secTitle {
+      font-size: 30px;
+    }
+  }
+
+  .dealershipDiv {
+    .dealershipArticle {
+      padding: 25px;
+      img {
+        width: 200px;
+        height: 150px;
+      }
+      .dealershipTitle {
+        font-size: 20px;
+      }
+      .dealershipContact {
+        .contactNumber {
+          font-size: 18px;
+        }
+        .callIcon {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .dealershipDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    justify-self: center;
+    .dealershipArticle {
+      width: 50%;
+      img {
+        width: 170px;
+        height: 150px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .dealers {
+    padding: 0;
+    .secTitle {
+      font-size: 40px;
+      padding-top: 50px;
+    }
+  }
+
+  .dealershipDiv {
+    padding-top: 50px;
+    .dealershipArticle {
+      padding-top: 25px;
+      img {
+        width: 300px;
+        height: 250px;
+      }
+      .dealershipTitle {
+        font-size: 20px;
+      }
+      .dealershipContact {
+        .contactNumber {
+          font-size: 18px;
+        }
+        .callIcon {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}

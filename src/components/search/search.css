@@ -40,4 +40,36 @@
   justify-content: center;
   width: 100%;
   gap: 0.3rem;
+}
+
+@media screen and (min-width: 520px) {
+  .search {
+    font-size: 25px;
+    padding: 2rem 0;
+  }
+  .searchDiv input {
+    padding: 10px;
+    font-weight: 600;
+    color: var(--primaryColor);
+  }
+  .searchDiv .btn {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 0.3rem;
+    font: 18px;
+  }
+  .searchDiv .icon {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 770px) {
+  .search {
+    width: 80%;
+    margin: auto;
+  }
+  .search .searchDiv select {
+    background: var(--whiteColor);
+    height: 50px;
+  }
 }/*# sourceMappingURL=search.css.map */

@@ -61,7 +61,10 @@ const Reviews = () => {
     const timer = setInterval(() => {
       setXPos((prevXPos) => {
         const newXPos = prevXPos - 300;
-        if (newXPos <= currentReviews.length * -300) {
+        if (
+          newXPos <= currentReviews.length * -300 ||
+          window.innerWidth > 996
+        ) {
           return 0;
         }
         return newXPos;

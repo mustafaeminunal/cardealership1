@@ -35,6 +35,8 @@
   color: var(--whiteColor);
 }
 .trending .secContainer .carContainer {
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -81,4 +83,18 @@
 }
 .trending .secContainer .carContainer .singleCar:hover .imgDiv {
   border-bottom: 6px solid var(--primaryColor);
+}
+
+@media screen and (min-width: 996px) {
+  .secContainer {
+    justify-content: center;
+  }
+  .secContainer .secHeading {
+    width: 770px;
+    display: flex;
+    justify-content: center;
+  }
+  .secContainer .carContainer .singleCar {
+    width: 770px;
+  }
 }/*# sourceMappingURL=trending.css.map */
